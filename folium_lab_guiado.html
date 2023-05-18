@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4ad6a97e89767e40a2ff746f1edf988 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d4ad6a97e89767e40a2ff746f1edf988" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d4ad6a97e89767e40a2ff746f1edf988 = L.map(
+                "map_d4ad6a97e89767e40a2ff746f1edf988",
+                {
+                    center: [9.9783532, -84.0844027],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8660d14bf83ecebe1fa936c63da1bc0f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d4ad6a97e89767e40a2ff746f1edf988);
+        
+    
+            var marker_c1584155cd0e669d3fb85b30a4f5a36e = L.marker(
+                [9.9632076, -84.0454502],
+                {}
+            ).addTo(map_d4ad6a97e89767e40a2ff746f1edf988);
+        
+    
+            var icon_34f10e55cbcc09ebde11c8b9d125349d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c1584155cd0e669d3fb85b30a4f5a36e.setIcon(icon_34f10e55cbcc09ebde11c8b9d125349d);
+        
+    
+        var popup_48d94ce168164483b44d88345ccb21b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32b8c75b5029cc1837eaa5591397e8d1 = $(`<div id="html_32b8c75b5029cc1837eaa5591397e8d1" style="width: 100.0%; height: 100.0%;"><b>San Vicente</b></div>`)[0];
+                popup_48d94ce168164483b44d88345ccb21b5.setContent(html_32b8c75b5029cc1837eaa5591397e8d1);
+            
+        
+
+        marker_c1584155cd0e669d3fb85b30a4f5a36e.bindPopup(popup_48d94ce168164483b44d88345ccb21b5)
+        ;
+
+        
+    
+    
+            var marker_df74e762e7b1faedffc7aad20ba08f83 = L.marker(
+                [9.9988017, -84.1140498],
+                {}
+            ).addTo(map_d4ad6a97e89767e40a2ff746f1edf988);
+        
+    
+            var icon_ce69dd8c62f67bc0125c8dadc88f1273 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df74e762e7b1faedffc7aad20ba08f83.setIcon(icon_ce69dd8c62f67bc0125c8dadc88f1273);
+        
+    
+        var popup_1ccf4d7425188301fb3c8012fe7b3ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d09dbe44fa02edfdef24d5d2c6475413 = $(`<div id="html_d09dbe44fa02edfdef24d5d2c6475413" style="width: 100.0%; height: 100.0%;"><b>Universidad Nacional de Costa Rica</b></div>`)[0];
+                popup_1ccf4d7425188301fb3c8012fe7b3ed9.setContent(html_d09dbe44fa02edfdef24d5d2c6475413);
+            
+        
+
+        marker_df74e762e7b1faedffc7aad20ba08f83.bindPopup(popup_1ccf4d7425188301fb3c8012fe7b3ed9)
+        ;
+
+        
+    
+    
+            var circle_a2030270186dbb2380d3715f539accb1 = L.circle(
+                [9.9988017, -84.1140498],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 6}
+            ).addTo(map_d4ad6a97e89767e40a2ff746f1edf988);
+        
+    
+            circle_a2030270186dbb2380d3715f539accb1.bindTooltip(
+                `<div>
+                     UNA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6d1858e4d65dc2345016371ce8f2c467 = L.circle(
+                [9.9632076, -84.0454502],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 6}
+            ).addTo(map_d4ad6a97e89767e40a2ff746f1edf988);
+        
+    
+            circle_6d1858e4d65dc2345016371ce8f2c467.bindTooltip(
+                `<div>
+                     San Vicente
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
